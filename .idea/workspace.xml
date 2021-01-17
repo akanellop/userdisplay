@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a773a8d-1b4e-4332-86c0-b76213c45490" name="Default Changelist" comment="login wit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/User-Display-App" value="loginreactpage" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/User-Display-App" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\user\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1n9aNTyKjz4iy1KOemOElwihlGi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../property-web-app" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.userdisplay" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\userdisplay\src\main\resources\static" />
+      <recent name="C:\Users\user\Desktop\userdisplay" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="UserDisplayApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.userdisplay.UserDisplayApplication" />
+      <module name="userdisplay" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a773a8d-1b4e-4332-86c0-b76213c45490" name="Default Changelist" comment="" />
+      <created>1610804726347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610804726347</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1229" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610805430906">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1229" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610805430906" />
+    <state x="-907" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610901159804">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-907" y="166" key="#com.intellij.fileTypes.FileTypeChooser/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610901159804" />
+    <state x="-878" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1610818565562">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-878" y="65" key="#com.intellij.ide.util.MemberChooser/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610818565562" />
+    <state x="-953" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1610898786859">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-953" y="140" key="#com.intellij.ide.util.PackageChooserDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610898786859" />
+    <state x="-954" y="161" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610805429855">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-954" y="161" key="#com.intellij.ide.util.TreeClassChooserDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610805429855" />
+    <state x="-982" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610898776398">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-982" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610898776398" />
+    <state x="-887" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610898789650">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-887" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610898789650" />
+    <state x="-962" y="108" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610816400112">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-962" y="108" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610816400112" />
+    <state x="-953" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610888106887">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-953" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610888106887" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610881026342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610881026342" />
+    <state x="784" y="440" key="Github.CreateGistDialog" timestamp="1610823999344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="440" key="Github.CreateGistDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610823999344" />
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom" timestamp="1610904876315">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610904876315" />
+    <state width="1877" height="174" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610889508363" />
+    <state width="1323" height="174" key="GridCell.Tab.0.center" timestamp="1610904876314">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="174" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610904876314" />
+    <state width="1877" height="174" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610889508363" />
+    <state width="1323" height="174" key="GridCell.Tab.0.left" timestamp="1610904876314">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="174" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610904876314" />
+    <state width="1877" height="174" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610889508362" />
+    <state width="1323" height="174" key="GridCell.Tab.0.right" timestamp="1610904876315">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="174" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610904876315" />
+    <state width="1877" height="174" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610889508363" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1610824148323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610806352557" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610824148323" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1610824148323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610806352557" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610824148323" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1610824148323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610806352557" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610824148323" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1610824148323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610806352557" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610824148323" />
+    <state x="-1182" y="9" key="SettingsEditor" timestamp="1610805394516">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1182" y="9" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610805394516" />
+    <state x="-1091" y="97" key="Vcs.Push.Dialog.v2" timestamp="1610904692314">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1091" y="97" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610904692314" />
+    <state x="-866" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610898483430">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-866" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610898483430" />
+  </component>
+</project>
