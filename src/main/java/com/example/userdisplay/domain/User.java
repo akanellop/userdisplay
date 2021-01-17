@@ -25,7 +25,7 @@ public class User {
     @Column(name = "password", length = MAX_STRING_LENGTH, nullable = false)
     private String password;
 
-    @Column(name = "phonenumber", length = MAX_PHONE_LENGTH)
+    @Column(name = "phone", length = MAX_PHONE_LENGTH)
     private String phoneNumber;
 
     @Column(name = "company", length = MAX_STRING_LENGTH)
