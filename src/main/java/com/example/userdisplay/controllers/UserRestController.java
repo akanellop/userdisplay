@@ -9,7 +9,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 //eite to afino @restcontroller, eite prosthetorest dependecy sto maven kai
 // grafo kalitera tis methodoys, kai mi soy po de xreiazetai kan o controler
 @RestController
@@ -32,6 +35,26 @@ public class UserRestController {
         }
         catch(Exception e){
             return  new ResponseEntity<>(""+e ,HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @GetMapping(value="/info")
+    public Map<String,Object> displayInfo(){
+        HashMap<String,Object> response = new HashMap<String,Object>();
+        try{
+            Long id = 3L;
+            User user;
+            user = userRepository.findUserById(id);
+            response.put("message", "Success");
+            response.put("user",user);
+            response.put("success",true);
+            return response;
+
+        }catch(Exception e){
+            System.out.println("something went wrong");
+            response.put("message", e.getMessage());
+            response.put("success",false);
+            return response;
         }
     }
 }

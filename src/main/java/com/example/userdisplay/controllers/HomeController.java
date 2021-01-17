@@ -19,10 +19,13 @@ public class HomeController {
     @RequestMapping(value= {"/home"},method = RequestMethod.GET)
     public ModelAndView home(){
         User user = userRepository.findByEmail(SecurityContextHolder.getContext().getAuthentication().getName());
-        System.out.println(user.getFullName());
 
         ModelAndView model = new ModelAndView();
-
+        model.addObject("id", user.getId());
+        model.addObject("name", user.getFullName());
+        model.addObject("email", user.getEmail());
+        model.addObject("company", user.getCompany());
+        model.addObject("phone", user.getPhoneNumber());
         model.setViewName("Home");
         return model;
 

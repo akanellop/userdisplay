@@ -2,6 +2,15 @@ const baseUrl = "http://localhost:8080/api/user"
 import axios from "axios";
 const user= {};
 
+
+user.info = async () => {
+    const urlList = baseUrl+"/info";
+    const res = await axios.get(urlList)
+                            .then(response => {return response.data})
+                            .catch(error=>{return error})
+    return res;
+}
+
 user.create = async (state) => {
 
     const datapost = {

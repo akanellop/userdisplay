@@ -41,6 +41,8 @@ public class User {
         this.company = company;
     }
 
+    public Long getId() {  return id; }
+
     public String getFullName() {
         return fullName;
     }
