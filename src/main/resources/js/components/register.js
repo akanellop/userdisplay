@@ -82,7 +82,7 @@ export default class Register extends Component {
             window.location = "/login";
         }
         else{
-            alert("Error : "+ res.message)
+            alert("Error : "+ res.body)
         }
    }
 }
