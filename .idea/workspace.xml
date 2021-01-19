@@ -22,25 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a773a8d-1b4e-4332-86c0-b76213c45490" name="Default Changelist" comment="working home apge displaying users info but with view model and not js">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/domain/UserRegisterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/exceptions/BadPasswordDuplicateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/exceptions/ExistingEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/exceptions/RequiredFieldsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/registerValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/UserRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/UserViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/components/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/components/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/built/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/built/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/userdisplay/controllers/UserRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/userdisplay/controllers/UserRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/userdisplay/controllers/UserViewController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/built/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/built/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="3a773a8d-1b4e-4332-86c0-b76213c45490" name="Default Changelist" comment="working home apge displaying users info but with view model and not js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
