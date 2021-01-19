@@ -21,6 +21,7 @@ public class HomeController {
         User user = userRepository.findByEmail(SecurityContextHolder.getContext().getAuthentication().getName());
 
         ModelAndView model = new ModelAndView();
+        model.addObject("user",user);
         model.addObject("id", user.getId());
         model.addObject("name", user.getFullName());
         model.addObject("email", user.getEmail());

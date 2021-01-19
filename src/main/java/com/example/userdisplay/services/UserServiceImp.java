@@ -5,12 +5,11 @@ import com.example.userdisplay.domain.UserRegisterDTO;
 import com.example.userdisplay.exceptions.BadPasswordDuplicateException;
 import com.example.userdisplay.exceptions.ExistingEmailException;
 import com.example.userdisplay.repositories.UserRepository;
-import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class UserServiceImp implements  UserService{
@@ -20,6 +19,12 @@ public class UserServiceImp implements  UserService{
 
 
     public void addUser(UserRegisterDTO data) throws Exception {
+        Pattern pattern = Pattern.compile("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$");
+        Matcher matcher = pattern.matcher(data.getPassword());
+
+        if(!matcher.find()) {
+            throw new BadPasswordDuplicateException(new Throwable());
+        }
         if(!data.getPassword().equals(data.getPassword2())) {
             throw new BadPasswordDuplicateException(new Throwable());
         }
