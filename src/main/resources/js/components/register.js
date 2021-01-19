@@ -82,12 +82,10 @@ export default class Register extends Component {
             window.location = "/login";
         }
         else{
-            alert("Error : "+ res.message.message)
+            alert("Error : "+ res.message)
         }
    }
-
 }
-
 
 if (document.getElementById('component-register')) {
     ReactDOM.render(<Register />, document.getElementById('component-register'));

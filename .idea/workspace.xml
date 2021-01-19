@@ -22,7 +22,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a773a8d-1b4e-4332-86c0-b76213c45490" name="Default Changelist" comment="working home apge displaying users info but with view model and not js" />
+    <list default="true" id="3a773a8d-1b4e-4332-86c0-b76213c45490" name="Default Changelist" comment="merged from troubling home display">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/preset-env/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/preset-env/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js-compat/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/core-js-compat/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-chromium-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/full-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/electron-to-chromium/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/data/processed/envs.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/data/processed/envs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/data/raw/nodejs.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/data/raw/nodejs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-releases/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-releases/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/js/components/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/components/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/built/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/built/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/built/bundle.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610926440596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="merged from troubling home display">
+      <created>1611082504324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611082504324</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +161,8 @@
     <MESSAGE value="created html and js files for register form and user table display" />
     <MESSAGE value="working register page &#10;needs validation front and back" />
     <MESSAGE value="working home apge displaying users info but with view model and not js" />
-    <option name="LAST_COMMIT_MESSAGE" value="working home apge displaying users info but with view model and not js" />
+    <MESSAGE value="merged from troubling home display" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged from troubling home display" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1229" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610805430906">
@@ -184,26 +210,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="440" key="Github.CreateGistDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610823999344" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1611080367057">
+    <state width="916" height="174" key="GridCell.Tab.0.bottom" timestamp="1611085523944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610916273108" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611080367057" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1611080367057">
+    <state width="916" height="174" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611085523944" />
+    <state width="916" height="174" key="GridCell.Tab.0.center" timestamp="1611085523943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610916273108" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611080367057" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1611080367057">
+    <state width="916" height="174" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611085523943" />
+    <state width="916" height="174" key="GridCell.Tab.0.left" timestamp="1611085523943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610916273108" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611080367057" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1611080367057">
+    <state width="916" height="174" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611085523943" />
+    <state width="916" height="174" key="GridCell.Tab.0.right" timestamp="1611085523943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610916273108" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611080367057" />
+    <state width="916" height="174" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611085523943" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1610824148323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,11 +259,11 @@
     </state>
     <state x="-1182" y="9" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610805394516" />
     <state x="259" y="13" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610917275244" />
-    <state x="387" y="139" key="Vcs.Push.Dialog.v2" timestamp="1610926439937">
+    <state x="387" y="139" key="Vcs.Push.Dialog.v2" timestamp="1611082540578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1091" y="97" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610906118430" />
-    <state x="387" y="139" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610926439937" />
+    <state x="387" y="139" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611082540578" />
     <state x="-866" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610898483430">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
