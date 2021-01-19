@@ -1,20 +1,17 @@
 package com.example.userdisplay.controllers;
 
 import com.example.userdisplay.domain.User;
+import com.example.userdisplay.domain.UserRegisterDTO;
 import com.example.userdisplay.repositories.UserRepository;
 import com.example.userdisplay.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.HashMap;
-import java.util.List;
+
 import java.util.Map;
 
-//eite to afino @restcontroller, eite prosthetorest dependecy sto maven kai
-// grafo kalitera tis methodoys, kai mi soy po de xreiazetai kan o controler
 @RestController
 @RequestMapping("/api/user")
 public class UserRestController {
@@ -26,15 +23,15 @@ public class UserRestController {
     private UserService userService;
 
     @PostMapping(value="/createuser")
-    public ResponseEntity<String> create(@RequestBody String data){
+    public ResponseEntity<String> create(@RequestBody UserRegisterDTO data){
         try{
-            //userRepository.save(data);
+
             userService.addUser(data);
-            return new ResponseEntity<>("Successful save", HttpStatus.OK);
+            return new ResponseEntity<>("Successful save.", HttpStatus.OK);
 
         }
         catch(Exception e){
-            return  new ResponseEntity<>(""+e ,HttpStatus.BAD_REQUEST);
+            return  new ResponseEntity<>(e.getMessage() ,HttpStatus.BAD_REQUEST);
         }
     }
 
@@ -42,9 +39,9 @@ public class UserRestController {
     public Map<String,Object> displayInfo(){
         HashMap<String,Object> response = new HashMap<String,Object>();
         try{
-            Long id = 3L;
+
             User user;
-            user = userRepository.findUserById(id);
+            user = userRepository.findUserById(3L);
             response.put("message", "Success");
             response.put("user",user);
             response.put("success",true);

@@ -22,18 +22,18 @@ export default class Register extends Component {
       <div className="container">
         <div className="row justify-content-center">
 
-            <form name='register'>
+            <form id="register" name='register'>
 
             <div className="form-group">
                 <label >Full Name</label>
-                <input type="text" className="form-control" placeholder="Name"
+                <input id="name" name="name" type="text" className="form-control" placeholder="Name"
                     value={this.state.fieldName}
                     onChange={(event)=>this.setState({fieldName:event.target.value})}
                 />
             </div>
             <div className="form-group">
                 <label >Email</label>
-                <input type="email" className="form-control" placeholder="you@example.com"
+                <input name="email" type="email" className="form-control" placeholder="you@example.com"
                     value={this.state.fieldEmail}
                     onChange={(event)=>this.setState({fieldEmail:event.target.value})}/>
             </div>
@@ -47,14 +47,14 @@ export default class Register extends Component {
 
             <div className="form-group">
                 <label >Phone </label>
-                <input type="text" className="form-control" placeholder="123467890"
+                <input name="phone" type="text" className="form-control" placeholder="123467890"
                 value={this.state.fieldPhone}
                 onChange={(event)=>this.setState({fieldPhone:event.target.value})}/>
             </div>
 
             <div className="form-group">
                 <label >Password </label>
-                <input type="password" className="form-control" placeholder="*****"
+                <input name="password1" type="password" className="form-control" placeholder="*****"
                 value={this.state.fieldPass1}
                 onChange={(event)=>this.setState({fieldPass1:event.target.value})}/>
             </div>
@@ -76,12 +76,10 @@ export default class Register extends Component {
   }
 
    async onClickSave(){
-        console.log("dsadasd");
-        console.log("dsadasd");
         const res = await userServices.create(this.state)
         if(res.success){
-            alert(res.message)
-            window.location.replace("/login");
+            //alert(res.message)
+            window.location = "/login";
         }
         else{
             alert("Error : "+ res.message.message)
