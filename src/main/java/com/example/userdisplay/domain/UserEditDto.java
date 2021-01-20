@@ -10,7 +10,7 @@ public class UserEditDto {
         private String oldpassword;
 
 
-    public UserEditDto(){
+        public UserEditDto(){
         }
 
         public String getFullname() {

@@ -5,15 +5,13 @@ import com.example.userdisplay.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.Optional;
 
 @Controller
-public class HomeController {
+public class UserPgesController {
     @Autowired
     UserRepository userRepository;
 
@@ -30,7 +28,6 @@ public class HomeController {
         model.addObject("phone", user.getPhoneNumber());
         model.setViewName("Home");
         return model;
-
     }
 
     @RequestMapping(value= {"/edit"},method = RequestMethod.GET)

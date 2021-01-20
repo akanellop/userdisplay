@@ -32,7 +32,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .usernameParameter("email")
                 .passwordParameter("password")
                 .defaultSuccessUrl("/home", true)
-                .failureUrl("/login?error=true") // kodikas gianni `${RequestParameters.error}`, sto fthl an iparxei ayto p.x. tipose bad credentials <------
+                .failureUrl("/login?error=true")
 
 
                 //LOGOUT Configuration

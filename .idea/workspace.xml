@@ -23,33 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a773a8d-1b4e-4332-86c0-b76213c45490" name="Default Changelist" comment="commit before branch">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/domain/UserEditDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/UserDisplayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/UserDisplayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/UserPgesController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/controllers/UserRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/domain/UserRegisterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/domain/UserRegisterDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/PasswordEncoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/PasswordEncoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserLoginDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserLoginDetailsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/services/UserServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/components/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/components/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/js/components/services/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/components/services/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/registerValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/registerValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/sdad" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/components/edit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/domain/UserEditDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/userdisplay/domain/UserEditDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/js/components/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/userdisplay/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/userdisplay/configuration/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/userdisplay/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/userdisplay/controllers/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/userdisplay/controllers/UserRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/userdisplay/controllers/UserRestController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/userdisplay/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/userdisplay/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/built/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/built/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611087048271</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit before branch">
+      <created>1611174955272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611174955272</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +177,8 @@
     <MESSAGE value="working register page &#10;needs validation front and back" />
     <MESSAGE value="working home apge displaying users info but with view model and not js" />
     <MESSAGE value="merged from troubling home display" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged from troubling home display" />
+    <MESSAGE value="commit before branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit before branch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1229" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610805430906">
@@ -234,26 +226,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="440" key="Github.CreateGistDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1610823999344" />
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1611174618029">
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1611175049869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610916273108" />
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611174618029" />
-    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1611174618029">
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611175049869" />
+    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1611175049869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610916273108" />
-    <state width="1877" height="170" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611174618029" />
-    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1611174618028">
+    <state width="1877" height="170" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611175049869" />
+    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1611175049869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610916273108" />
-    <state width="1877" height="170" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611174618028" />
-    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1611174618029">
+    <state width="1877" height="170" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611175049869" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1611175049869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@-1366.0.1366.728" timestamp="1610916273108" />
-    <state width="1877" height="170" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611174618029" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611175049869" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1611169762026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

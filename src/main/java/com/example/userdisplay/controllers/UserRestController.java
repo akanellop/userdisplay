@@ -50,23 +50,4 @@ public class UserRestController {
         }
     }
 
-    @GetMapping(value="/info")
-    public Map<String,Object> displayInfo(){
-        HashMap<String,Object> response = new HashMap<String,Object>();
-        try{
-
-            User user;
-            user = userRepository.findUserById(3L);
-            response.put("message", "Success");
-            response.put("user",user);
-            response.put("success",true);
-            return response;
-
-        }catch(Exception e){
-            System.out.println("something went wrong");
-            response.put("message", e.getMessage());
-            response.put("success",false);
-            return response;
-        }
-    }
 }
