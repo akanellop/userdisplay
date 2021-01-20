@@ -19,11 +19,12 @@ public class UserServiceImp implements  UserService{
     @Autowired
     private UserRepository userRepository;
 
-
+    //After checking for input validity, proceed to save new user.
     public void addUser(UserRegisterDto data) throws Exception {
         Pattern pattern = Pattern.compile("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$");
         Matcher matcher = pattern.matcher(data.getPassword());
 
+        //Check password validity
         if(!matcher.find()) {
             throw new BadPasswordDuplicateException(new Throwable());
         }
@@ -32,6 +33,7 @@ public class UserServiceImp implements  UserService{
         }
 
         try{
+            //Save will be aborted because of duplicate email
             User newUser = new User(data.getFullname(), data.getEmail(), data.getPassword(), data.getPhone(), data.getCompany());
             userRepository.save(newUser);
         }
@@ -41,25 +43,26 @@ public class UserServiceImp implements  UserService{
 
     }
 
+    //After checking for input validity, proceed to save update user.
     public void editUser(UserEditDto data) throws Exception {
 
         Pattern pattern = Pattern.compile("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$");
         Matcher matcher = pattern.matcher(data.getPassword());
         User user = userRepository.findByEmail(SecurityContextHolder.getContext().getAuthentication().getName());
 
-
+        //Check passwords validity
         if(data.getOldpassword().equals(user.getPassword()) && (matcher.find()||data.getPassword().equals(""))){
             try {
+
+                //Update user
                 if (!data.getFullname().equals("Saved-Value")) {
                     user.setFullName(data.getFullname());
                 }
                 if (!data.getCompany().equals("Saved-Value")) {
                     user.setCompany(data.getCompany());
-
                 }
                 if (!data.getPhone().equals("Saved-Value")) {
                     user.setPhoneNumber(data.getPhone());
-
                 }
                 if (!data.getPassword().equals("") && data.getPassword().equals(data.getPassword2())) {
                     user.setPassword(data.getPassword());

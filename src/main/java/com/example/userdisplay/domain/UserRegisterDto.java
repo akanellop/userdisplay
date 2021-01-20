@@ -1,7 +1,5 @@
 package com.example.userdisplay.domain;
 
-import java.time.LocalDate;
-
 public class UserRegisterDto {
     private String fullname;
     private String email;
@@ -11,7 +9,6 @@ public class UserRegisterDto {
     private String password2;
 
     public UserRegisterDto(){
-
     }
 
     public String getFullname() {

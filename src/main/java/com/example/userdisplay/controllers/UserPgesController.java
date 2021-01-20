@@ -15,6 +15,7 @@ public class UserPgesController {
     @Autowired
     UserRepository userRepository;
 
+    //Pass user's information using FreeMarker templates.
     @RequestMapping(value= {"/home"},method = RequestMethod.GET)
     public ModelAndView home(){
         User user = userRepository.findByEmail(SecurityContextHolder.getContext().getAuthentication().getName());
@@ -30,6 +31,7 @@ public class UserPgesController {
         return model;
     }
 
+    //Edit page will be using a React rendering method.
     @RequestMapping(value= {"/edit"},method = RequestMethod.GET)
     public ModelAndView edit(){
         ModelAndView model = new ModelAndView();
