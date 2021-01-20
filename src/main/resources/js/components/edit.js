@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import userServices from "./services/user"
 
-export default class Register extends Component {
+export default class Edit extends Component {
 
     constructor(){
         super();
         this.state = {
-            fieldName:"",
-            fieldEmail:"",
+            fieldName:"Saved-Value",
             fieldPass1:"",
             fieldPass2:"",
-            fieldCompany:"",
-            fieldPhone:""
+            fieldCompany:"Saved-Value",
+            fieldPhone:"Saved-Value",
+            fieldOldPass:"",
         }
     }
 
@@ -22,7 +22,7 @@ export default class Register extends Component {
       <div className="container">
         <div className="row justify-content-center">
 
-            <form id="register" name='register'>
+            <form id="edit" name='edit'>
 
             <div className="form-group">
                 <label >Full Name</label>
@@ -30,12 +30,6 @@ export default class Register extends Component {
                     value={this.state.fieldName}
                     onChange={(event)=>this.setState({fieldName:event.target.value})}
                 />
-            </div>
-            <div className="form-group">
-                <label >Email</label>
-                <input name="email" type="email" className="form-control" placeholder="you@example.com"
-                    value={this.state.fieldEmail}
-                    onChange={(event)=>this.setState({fieldEmail:event.target.value})}/>
             </div>
 
             <div className="form-group">
@@ -53,32 +47,39 @@ export default class Register extends Component {
             </div>
 
             <div className="form-group">
-                <label >Password </label>
-                <input name="password1" type="password" className="form-control" placeholder="*****"
+                <label >New Password </label>
+                <input id ="pass1" name="password1" type="password" className="form-control" placeholder="*****"
                 value={this.state.fieldPass1}
                 onChange={(event)=>this.setState({fieldPass1:event.target.value})}/>
             </div>
 
             <div className="form-group">
-                <label >Repeat password </label>
-                <input type="password" className="form-control" placeholder="*****"
+                <label >Please give password again. </label>
+                <input id ="pass2" type="password" className="form-control" placeholder="*****"
                 value={this.state.fieldPass2}
                 onChange={(event)=>this.setState({fieldPass2:event.target.value})}/>
             </div>
 
+            <h3>Enter your previous password to confirm.</h3>
             <div className="form-group">
-                <button className="btn btn-primary btn-block" type="submit" onClick={()=>this.onClickSave()} >Save</button>
+                <input type="password" className="form-control" placeholder="*****"
+                value={this.state.fieldOldPass}
+                onChange={(event)=>this.setState({fieldOldPass:event.target.value})}/>
             </div>
-        </form>
+
+            <button className="btn btn-primary btn-block" type="submit" onClick={()=>this.onClickSave()} >Save</button>
+
+            </form>
+            <a href="/home">  GO back </a>
         </div>
       </div>
     )
   }
 
    async onClickSave(){
-        const res = await userServices.create(this.state)
+        const res = await userServices.edit(this.state)
         if(res.success){
-            window.location = "/login";
+            window.location = "/home";
         }
         else{
             alert("Error : "+ res.body)
@@ -86,6 +87,6 @@ export default class Register extends Component {
    }
 }
 
-if (document.getElementById('component-register')) {
-    ReactDOM.render(<Register />, document.getElementById('component-register'));
+if (document.getElementById('component-edit')) {
+    ReactDOM.render(<Edit />, document.getElementById('component-edit'));
 }

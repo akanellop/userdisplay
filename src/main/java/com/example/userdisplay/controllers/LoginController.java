@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class LoginController {
-    //controller to return custom login and register views
 
     @GetMapping("/login")
     private String login() {

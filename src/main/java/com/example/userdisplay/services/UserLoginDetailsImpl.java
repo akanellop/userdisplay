@@ -18,10 +18,8 @@ public class UserLoginDetailsImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        // here we would search into the repo for the user.
-        // for not we are just going to send always a successful response.
-        User user = userRepository.findByEmail(username);
 
+        User user = userRepository.findByEmail(username);
         return new LoginResponse(user.getEmail(), user.getPassword(), Arrays.asList(new SimpleGrantedAuthority("USER")));
     }
 }

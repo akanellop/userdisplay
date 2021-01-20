@@ -1,8 +1,10 @@
 package com.example.userdisplay.services;
 
-import com.example.userdisplay.domain.UserRegisterDTO;
+import com.example.userdisplay.domain.UserRegisterDto;
+import com.example.userdisplay.domain.UserEditDto;
 
 public interface UserService {
 
-    void addUser(UserRegisterDTO data) throws Exception;
+    void addUser(UserRegisterDto data) throws Exception;
+    void editUser(UserEditDto data) throws Exception;
 }

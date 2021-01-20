@@ -2,7 +2,6 @@ package com.example.userdisplay.services;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-//use registered passwords without auto encoding from spring security
 public class PasswordEncoderTest implements PasswordEncoder {
     @Override
     public String encode(CharSequence charSequence) {

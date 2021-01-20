@@ -12,9 +12,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    //@Autowired
-    //private LoginSuccessHandler loginSuccessHandler;
-
     @Bean
     public UserDetailsService userDetailsService() {
         return new UserLoginDetailsImpl();
@@ -35,7 +32,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .usernameParameter("email")
                 .passwordParameter("password")
                 .defaultSuccessUrl("/home", true)
-                //.successHandler(loginSuccessHandler)
                 .failureUrl("/login?error=true") // kodikas gianni `${RequestParameters.error}`, sto fthl an iparxei ayto p.x. tipose bad credentials <------
 
 

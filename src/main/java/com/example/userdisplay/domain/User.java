@@ -9,8 +9,6 @@ public class User {
     private static final int MAX_STRING_LENGTH = 60;
     private static final int MAX_PHONE_LENGTH = 13;
 
-
-
     @Id
     @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -63,4 +61,23 @@ public class User {
         return company;
     }
 
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
 }

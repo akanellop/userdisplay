@@ -37,4 +37,30 @@ user.create = async (state) => {
     	return res;
 }
 
+user.edit = async (state) => {
+
+    const datapost = {
+        fullname: state.fieldName,
+        company: state.fieldCompany,
+        phone: state.fieldPhone,
+        password: state.fieldPass1,
+        password2: state.fieldPass2,
+        oldpassword: state.fieldOldPass
+    }
+
+    const urlPost = baseUrl+"/edituser"
+
+    const res = await axios.post(urlPost,datapost)
+    	.then(response=>{
+    		const data = { success: true, message: response.data }
+    		return data;
+    	})
+    	.catch(error=>{
+    		const data = { success: false, message: error.response.data }
+    		return data;
+    	})
+
+    	return res;
+}
+
 export default user

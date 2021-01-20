@@ -10,8 +10,6 @@ public class UserDisplayApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(UserDisplayApplication.class, args);
-
-
 	}
 
 }

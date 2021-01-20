@@ -2,7 +2,7 @@ package com.example.userdisplay.domain;
 
 import java.time.LocalDate;
 
-public class UserRegisterDTO {
+public class UserRegisterDto {
     private String fullname;
     private String email;
     private String password;
@@ -10,7 +10,7 @@ public class UserRegisterDTO {
     private String phone;
     private String password2;
 
-    public UserRegisterDTO(){
+    public UserRegisterDto(){
 
     }
 
